@@ -1,0 +1,36 @@
+
+
+11. Arrow functions  ( Es6 )
+
+
+   why we need 'arrow' functions?
+
+   use-1 : for compact function-arguments
+   use-2 : to capture 'this' while creating new-function
+
+
+---------------------------------------------------------
+
+
+12. symbol data-type ( Es6 )
+
+
+---------------------------------------------------------
+
+13. iterable objects
+
+---------------------------------------------------------
+
+14.  Collections
+
+    - Set
+    - Map
+
+---------------------------------------------------------
+
+
+
+     
+
+
+   
