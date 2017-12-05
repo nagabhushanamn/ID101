@@ -1,0 +1,98 @@
+
+
+level-1
+---------
+
+1. data-types
+
+   types
+   -----
+
+     a. simple/primitive  ==> value
+
+        a. string
+        b. number
+        c. boolean
+        d. undefined
+        e. symbol ( from es6 )
+
+    b. complex/reference  ==> object
+        
+
+------------------------------------------------------------
+
+
+2. Execution-Context / scope
+
+
+   def:
+
+    memory/stack-frame/scope with given args & locals
+    to execute instructions      
+
+    2 phases
+    --------
+
+        a. context-creation 
+
+            ( bad thing )
+            ==> all variables with 'var' keyword declared
+             any-where in that context will hoisted to top with default value ( undefined ).
+
+        b. context-execution
+
+           ==> instruction will get execute in sequence
+
+    -----------------------------------
+
+    --> by default every js-runtime has one global-context & global-obj 
+    --> global-context always executed by 'global-obj'
+
+        global-obj ==> .js activation-obj
+
+        global-obj
+
+          browser-envi  ==> window
+          Node.js       ==> process
+          ...
+          
+
+    -------------------------------------
+
+    --> each function invocation creates new-context 
+    which is child of in-which that function has declared
+
+    ------------------------------------------
+        
+
+------------------------------------------------------------
+
+
+3. FP in JS
+-------------
+
+ --> every should be a object
+
+ --> we can assign function to variables
+ --> we can pass/return to/from other function
+ --> can be partial-function 
+
+ ------------------------------------------------------------
+
+
+4. Closure  
+-------------
+
+  A closure is a function having access to the parent scope,
+  even after the parent function has closed
+
+
+ ------------------------------------------------------------
+
+
+5.  / context's owner - 'this'
+
+
+   imp-note : every context runs by 1 object
+
+------------------------------------------------------------

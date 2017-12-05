@@ -1,0 +1,78 @@
+
+
+.js-lang
+
+ --> scripting-lang for web-pages ( HTML ) in browser-envi
+ --> also can be used as server-side lang  on Node.js
+ --> mobile apps
+ --> console based appln
+
+ ---------------------------------------
+
+ why i shud choose .js-lang ?  good features of this lang 
+
+
+ --> FP & OOP
+ --> dynamic-typed lang
+ --> single-threaded lang , but can do concurrent actions
+ --> All IO operation are Non-Blocking
+
+----------------------------------------------
+
+.js-lang is an implementation of 'ECMAScript spec'
+
+latest release :
+
+           ==>    ECMAScript-2015 or ES6  ( our focus )
+                                  or ES7
+
+------------------------------------------------
+
+how to run .js-program ?
+
+--> we need .js-runtime/engine
+
+browser envi
+
+a. chrome  ==> v8(c++)
+b. fireox  ==> rhino(java)
+c. IE/Edge ==> chakra
+d. Safari  ==> nitro
+...
+
+
+other envi
+
+a. Node.js ==> v8           
+b. JVM     ==> nashorn
+...
+
+---------------------------------------------                       
+
+
+'Helloworld'
+
+--------------------------------------------
+
+
+Todo_app
+--------
+    Model
+    -----
+    a. Todo
+        - id : number | string
+        - title : string
+        - completed : boolean
+    --------------------------------------
+    Service
+    -------
+     a. TodoService
+        let todos=[];
+        - addTodo(title){}  
+        - completeTodo(id)
+        - completeAll()
+        - editTodo(id,newTitle)
+        - deleteTodo(id)
+        - clearCompleted()
+        - filter(all|active|completed)
+    ---------------------------------------------------      
