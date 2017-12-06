@@ -1,0 +1,66 @@
+
+
+web-app
+-----------
+
+  --------------------------------------------------------
+  web-client(s)  <---------------> web-server
+
+                                   - resources
+  --------------------------------------------------------
+  browser(s)                       server ( e.g tomcat)   
+
+             <-------------------->
+                    HTTP
+----------------------------------------------------------                    
+
+
+  resource
+   - menu
+
+   ==> text/plain
+   ==> text/html
+
+-----------------------------------------------------------   
+
+
+HTML ==> Hypher Text Markup Language
+
+    --> w3c standard
+
+------------------------------------------------------------    
+
+
+Learning HTML 
+---------------
+
+ --> html tags/elements/components
+
+----------------------------------------------------------
+
+
+web-page
+
+  - content  ==> HTML tags
+  - style    ==> CSS
+  - behav    ==> JavaScript
+
+------------------------------------------  
+
+
+how to select html-elements to apply style?
+
+
+  many ways
+
+    ==> by element's tag-name
+    ==> by element's id
+    ==> by elements'c class-name ( most used )
+    ==> by element's relation-ship
+    ==> by element's position
+    ....
+
+    
+
+
+
