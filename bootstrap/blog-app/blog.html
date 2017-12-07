@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="my-navs">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href=""><i class="glyphicon glyphicon-home"></i> Home</a></li>
-                    <li><a href="blog.html"><i class="fa fa-sticky-note"></i>Blog</a></li>
+                    <li><a href=""><i class="fa fa-sticky-note"></i>Blog</a></li>
                     <li><a href=""><i class="fa fa-phone"></i>Contact</a></li>
                 </ul>
             </div>
@@ -33,26 +33,38 @@
         </div>
     </nav>
 
-    <div class="jumbotron">
-        <div class="container">
-            <h1>Hello, sapient!</h1>
-            <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content
-                or information.</p>
-            <p><a href="#" class="btn btn-primary">Learn more</a></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-md-push-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Blog</div>
+                    <div class="panel-body">
+                        <h4>Bootstrap - grid system - 23rd June-2016</h4>
+                        <p>
+                            Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device
+                            or viewport size increases. It includes predefined classes for easy layout options, as well as
+                            powerful mixins for generating more semantic layouts for RWD
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-md-pull-9">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Links</div>
+                    <div class="panel-body">
+                        <ul class="nav nav-stacked">
+                            <li><a href>Link-1</a></li>
+                            <li><a href>Link-2</a></li>
+                            <li><a href>Link-3</a></li>
+                            <li><a href>Link-4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4"> download bootstrap </div>
-        </div>
-        <hr/>
-        <div class="row">
-            <div class="col-xs-6 col-sm-3 col-md-3 col-md-offset-0">Compiled and minified CSS, JavaScript, and fonts. No docs or original source files are included.</div>
-            <div class="col-xs-6 col-sm-3 col-md-3 col-sm-offset-1 col-md-offset-1">Source Less, JavaScript, and font files, along with our docs. Requires a Less compiler and some setup.</div>
-            <div class="col-xs-6 col-sm-3 col-md-3 col-sm-offset-1 col-md-offset-1">Bootstrap ported from Less to Sass for easy inclusion in Rails, Compass, or Sass-only projects.</div>
-        </div>
-    </div>
+
 
 
     <footer class="my-footer">
@@ -66,7 +78,9 @@
                 </div>
             </div>
             <div class="row bottom-footer">
-                <div class="col-md-5"><div>&copy;-2017</div></div>
+                <div class="col-md-5">
+                    <div>&copy;-2017</div>
+                </div>
                 <div class="col-md-7">
                     <ul class="footer-nav">
                         <li><a href="index.html">Home</a></li>
