@@ -33,24 +33,54 @@
         </div>
     </nav>
 
-    <div class="jumbotron">
-        <div class="container">
-            <h1>Hello, sapient!</h1>
-            <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content
-                or information.</p>
-            <p><a href="#" class="btn btn-primary">Learn more</a></p>
-        </div>
-    </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4"> download bootstrap </div>
-        </div>
-        <hr/>
-        <div class="row">
-            <div class="col-xs-6 col-sm-3 col-md-3 col-md-offset-0">Compiled and minified CSS, JavaScript, and fonts. No docs or original source files are included.</div>
-            <div class="col-xs-6 col-sm-3 col-md-3 col-sm-offset-1 col-md-offset-1">Source Less, JavaScript, and font files, along with our docs. Requires a Less compiler and some setup.</div>
-            <div class="col-xs-6 col-sm-3 col-md-3 col-sm-offset-1 col-md-offset-1">Bootstrap ported from Less to Sass for easy inclusion in Rails, Compass, or Sass-only projects.</div>
+            <div class="col-md-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h5>Contact Address</h5>
+                    </div>
+                    <div class="panel-body">
+                        <address>
+                            #999,<br/>city,<br/>country
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h5>Contact Form</h5>
+                    </div>
+                    <div class="panel-body">
+                        
+                        <form>
+                            <div class="form-group">
+								<label class="sr-only">Name:</label>
+								<input autofocus class="form-control" id="contactName" placeholder="Enter Name">
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Email:</label>
+								 <div class="input-group">
+							     	<input type="email" class="form-control" id="contactEmail" placeholder="Enter Email">
+							      	<div class="input-group-addon">.sapient.com</div>
+							    </div>
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Subject:</label>
+								<input type="text" class="form-control" id="contactSubject" placeholder="Enter Subject">
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Message:</label>
+								<textarea rows="5" class="form-control" cols="35" id="contactMessage" placeholder="Enter Message"></textarea>
+							</div>
+							<button id="contactFormBtn" type="button" class="btn btn-primary btn-sm">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -66,7 +96,9 @@
                 </div>
             </div>
             <div class="row bottom-footer">
-                <div class="col-md-5"><div>&copy;-2017</div></div>
+                <div class="col-md-5">
+                    <div>&copy;-2017</div>
+                </div>
                 <div class="col-md-7">
                     <ul class="footer-nav">
                         <li><a href="index.html">Home</a></li>

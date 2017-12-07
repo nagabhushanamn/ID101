@@ -5,7 +5,7 @@
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet" />
+     <link href="./bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet" /> 
     <link href="./font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />
     <link href="./css/style.css" rel="stylesheet" />
 </head>
@@ -24,9 +24,9 @@
             </div>
             <div class="collapse navbar-collapse" id="my-navs">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href=""><i class="glyphicon glyphicon-home"></i> Home</a></li>
-                    <li><a href=""><i class="fa fa-sticky-note"></i>Blog</a></li>
-                    <li><a href=""><i class="fa fa-phone"></i>Contact</a></li>
+                    <li><a href="index.html"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+                    <li><a href="blog.html"><i class="fa fa-sticky-note"></i>Blog</a></li>
+                    <li><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
                 </ul>
             </div>
 
@@ -35,65 +35,127 @@
 
     <div class="container">
         <div class="row">
+
             <div class="col-md-9 col-md-push-3">
                 <div class="panel panel-default">
                     <div class="panel-heading">Blog</div>
                     <div class="panel-body">
-                        <h4>Bootstrap - grid system - 23rd June-2016</h4>
-                        <p>
-                            Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device
-                            or viewport size increases. It includes predefined classes for easy layout options, as well as
-                            powerful mixins for generating more semantic layouts for RWD
-                        </p>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-xs-6">
+                                <img src="./images/po.png" class="img-responsive" />
+                            </div>
+                            <div class="col-md-8 col-sm-8 col-xs-6">
+                                <h4 class="text-uppercase">Bootstrap - grid system - <small> 23rd June-2016 </small></h4>
+                                <p class="lead text-justified">
+                                    Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to <mark> 12 columns </mark> as the device
+                                    or viewport size increases. It includes predefined classes for easy layout options, as
+                                    well as powerful mixins for generating more semantic layouts for <abbr title="Responsive Web Design">RWD</abbr>
+
+                                    <blockquote class="blockquote-reverse">
+                                        <small>by Nag</small>
+                                    </blockquote>
+
+                                </p>
+                            </div>
+                        </div>
+                        <hr/>
+
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-condensed table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Device Type</th>
+                                        <th>Devices</th>
+                                        <th>2013</th>
+                                        <th>2014</th>
+                                        <th>Change</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Traditional</td>
+                                        <td>Desktops,Laptops,etc..</td>
+                                        <td>88.62%</td>
+                                        <td>78.99%</td>
+                                        <td class="bg-danger">-9.63%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Smartpnone</td>
+                                        <td>Windows mobile,IPhone,Android</td>
+                                        <td>5.42%</td>
+                                        <td>10.42%</td>
+                                        <td class="bg-success">+5.02%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tablets</td>
+                                        <td>Tabs,IPAD,Slates</td>
+                                        <td>5.95%</td>
+                                        <td>10.58%</td>
+                                        <td>+4.63%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <div class="row hidden-print">
+                            <div class="col-md-6 col-sm-6 visible-lg">
+                                <img src="./images/po.png" class="img-responsive"/>
+                            </div>
+                            <div class="col-md-6 visible-lg">
+                                <img src="./images/tom-and-jerry.jpg" class="img-responsive"/>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Links</div>
+                        <div class="panel-body">
+                            <ul class="nav nav-stacked">
+                                <li><a href>Link-1</a></li>
+                                <li><a href>Link-2</a></li>
+                                <li><a href>Link-3</a></li>
+                                <li><a href>Link-4</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-md-pull-9">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Links</div>
-                    <div class="panel-body">
-                        <ul class="nav nav-stacked">
-                            <li><a href>Link-1</a></li>
-                            <li><a href>Link-2</a></li>
-                            <li><a href>Link-3</a></li>
-                            <li><a href>Link-4</a></li>
+        </div>
+
+
+
+
+        <footer class="my-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h5>contact-address</h5>
+                        <address>
+                            #999,<br/>city,<br/>country
+                        </address>
+                    </div>
+                </div>
+                <div class="row bottom-footer">
+                    <div class="col-md-5">
+                        <div>&copy;-2017</div>
+                    </div>
+                    <div class="col-md-7">
+                        <ul class="footer-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </footer>
 
-
-
-
-    <footer class="my-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <h5>contact-address</h5>
-                    <address>
-                        #999,<br/>city,<br/>country
-                    </address>
-                </div>
-            </div>
-            <div class="row bottom-footer">
-                <div class="col-md-5">
-                    <div>&copy;-2017</div>
-                </div>
-                <div class="col-md-7">
-                    <ul class="footer-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="./jquery/jquery-3.2.1.js"></script>
-    <script src="./bootstrap-3.3.7/js/bootstrap.js"></script>
+        <script src="./jquery/jquery-3.2.1.js"></script>
+        <script src="./bootstrap-3.3.7/js/bootstrap.js"></script>
 
 </body>
 
