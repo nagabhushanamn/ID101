@@ -1,0 +1,76 @@
+
+
+RWD
+-----
+
+Responsive web design
+
+Responsive web design is the practice of building 
+a website suitable to work on every device and every screen size, 
+no matter how large or small, mobile or desktop. 
+
+
+
+4 guide-lines
+--------------
+
+- Flexible Layouts  
+- Media Queries  ( from CSS3 )
+- Mobile First approach
+- Flexible Media-content ( images , video )
+
+----------------------------------------
+
+Flexible Layouts/grids
+------------------------
+
+Responsive Web Design Formula
+
+(target / context) x 100 = result %
+
+e.g
+
+(340/538) * 100 ==> 63.9
+
+
+------------------------------------------
+
+syntax to use media-queries ( css3 )
+
+
+// way-1
+
+<link href="sheet1.css" rel="stylesheet" media="all and (max-width="1024") "/>
+
+
+// way-2 ( in CSS file )
+
+@media all and (max-width=1024px){
+
+
+}
+
+// way-3
+
+@import url(theme.css) allall and (max-width=1024px)
+
+
+//------------------------------------------------
+
+
+meida query logical operators
+
+@media all and (min-width=800px) and (max-width=1024px) {...}
+@media not screen and (color)  {...}
+@media only screen and (orientation:portrait)  {...}
+
+
+
+
+//---------------------------------------
+
+Responsive CSS F.W
+
+--> bootstrap from twitter ( open-source )
+
+//-------------------------------------

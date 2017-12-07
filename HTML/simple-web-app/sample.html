@@ -5,6 +5,7 @@
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/selectors-demo.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -13,6 +14,9 @@
         <p>My name is Donald <span id="Lastname">Duck</span></p>
         <p id="my-Address">I live in Duckburg</p>
         <p>I have many friends:</p>
+        <div>
+            <p>New Paragrah</p>
+        </div>
     </div>
 
     <ul id="Listfriends">
@@ -70,8 +74,8 @@
             <div><input type="password" name="password" value="password" /></div>
         </div>
         Female: <input name="rr" type="radio" id="rr1" checked="checked" /> 
-        Male: <input name="rr" type="radio" id="rr2"/>
-        Other: <input name="rr" type="radio" id="rr3" disabled="disabled" />
+        Male:   <input name="rr" type="radio" id="rr2"/>
+        Other:  <input name="rr" type="radio" id="rr3" disabled="disabled" />
         <div>
             <h4>Newscategories:</h4>
             <div>Ducks:</div>
@@ -85,16 +89,16 @@
             <div>Humans:</div>
             <div><input id="cc3" type="checkbox" /></div>
         </div>
-        <div class="noSel" style="clear:both;"></div>
+        <div></div>
         <input type="reset" value="Reset" />
-        <input class="noSel" type="submit" value="Submit" />
-        <input class="noSel" type="button" value="Cancel" />
+        <input type="submit" value="Submit" />
+        <input type="button" value="Cancel" />
         <h4>My Favourite:</h4>
         <select multiple class="myselect">
-  <option>Donald</option>
-  <option selected>Mickey</option>
-  <option>Goofy</option>  
- </select>
+            <option>Donald</option>
+            <option selected>Mickey</option>
+            <option>Goofy</option>  
+        </select>
         <h4>Upload image:</h4>
         <input type="file">
         <input type="image" src="arrow-r.jpg" style="border:3px solid transparent">

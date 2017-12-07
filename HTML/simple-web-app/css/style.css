@@ -1,6 +1,7 @@
 
 
 
+/*
 body{
     background-color: #1f1f1f;
     color: #bfbfbf;
@@ -13,4 +14,9 @@ body{
 
 .box{
     border: 5px solid green;
+}
+*/
+
+a[href$='pdf']::after{
+    content: url('../images/pdf.png')
 }

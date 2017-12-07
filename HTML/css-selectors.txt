@@ -1,0 +1,52 @@
+
+basic selectors
+-----------------
+
+#Lastname  -> select element with 'id'
+.intro     -> select element(s) with class-name
+.intro,#Lastname 
+h1
+h1,p
+--------------------------------------------------
+
+// filters
+-------------
+
+p:first-child
+p:first-of-type
+p:last-child
+p:last-of-type
+
+li:nth-child(1)
+li:nth-last-child(1) 
+li:nth-last-of-type(1) 
+b:only-child
+b:only-of-type
+
+//--------------------------------------------------
+
+ by relationship
+
+ div > p
+ div p
+ ul + h3  // sibling next to this element
+ ul ~ h3  // sibling element
+ 
+----------------------------------------------------
+
+// attribute based selector
+
+[id]
+[id=my-Address]  or #my-Address
+[id$=ess]
+[id^=my]
+[id|=my]   // <element id="my-xxxxxx" />
+[title~=beautiful]
+[id*=s]
+
+//------------------------------------------------
+
+
+*
+
+-----------------------------------------------

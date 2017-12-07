@@ -1,0 +1,17 @@
+
+
+.container{
+    width: 100%;
+}
+.container-75{
+    width: 75%;
+}
+
+.container-50{
+    width: 50%;
+}
+
+.img-responsive{
+	position:relative;
+	max-width: 100%;
+}
