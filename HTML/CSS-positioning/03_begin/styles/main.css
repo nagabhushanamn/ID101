@@ -1,0 +1,40 @@
+body {
+    background-color: #1f1f1f;
+    height: 2000px;
+    color: #bfbfbf;
+}
+
+h1 {
+    font-weight: normal;   
+}
+
+em {
+    color: #dd740b;   
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.container {
+    background: yellow;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    right: 10px;
+}
+
+.blueBox {
+    background: #627da0;
+    position: absolute;
+    top:10px;
+    left: 30px;
+}
+
+.greenBox {
+    background: #5b8054;  
+}
+
+.
