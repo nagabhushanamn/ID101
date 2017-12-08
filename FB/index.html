@@ -9,51 +9,32 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="container">
 
-    <div class="container">
-        <div class="page-header">FB</div>
-        <div class="row">
-            <div class="col-xs-8 col-sm-6 col-md-6">
-                <div class="panel panel-default">
-                    <div class="panel-heading"> Story Form </div>
-                    <div class="panel-body">
-                        <form>
-                            <div class="form-group">
-                                <label>Name </label>
-                                <input class="form-control" />
-                            </div>
-                            <div class="form-group">
-                                <label>Message </label>
-                                <textarea class="form-control"></textarea>
-                            </div>
-                            <button class="btn btn-primary">submit</button>
-                        </form>
+    <div class="page-header"> FB </div>
+
+    <div class="col-md-6 col-sm-6 col-xs-8">
+        <div class="panel panel-default">
+            <div class="panel-heading">FB Form</div>
+            <div class="panel-body">
+                <form id="fbForm">
+                    <div class="form-group">
+                        <label>Who are you</label>
+                        <input class="form-control"/>
                     </div>
-                </div>
+                     <div class="form-group">
+                        <label>Whats up</label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+                    <button class="btn btn-primary">submit</button>
+                </form>
             </div>
         </div>
-        <hr/>
-
-        <div class="">
-            <div class="">
-                <div class="alert alert-info">
-                    <span class="badge">Nag</span> &mdash; 07/12/17
-                    <hr/>
-                    <p>bla bla</p>
-                </div>
-            </div>
-             <div class="">
-                <div class="alert alert-info">
-                    <span class="badge">batch</span> &mdash; 07/12/17
-                    <hr/>
-                    <p>leave us, enough</p>
-                </div>
-            </div>
-        </div>
-
     </div>
 
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./FB.js"></script>
 </body>
 
 </html>
