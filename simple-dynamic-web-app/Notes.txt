@@ -23,6 +23,103 @@
        
   --------------------------------------------      
     
+    
+    JSP
+    ------
+    
+    
+    
+    scripting elements
+    -----------------------
+    
+    a. scriptlet
+    
+    syntax:
+    
+    <%
+    		multi-line java code to _jspService()
+    %>
+    
+    
+    
+    ==> any req processing logic to execute for every request.
+   	==> we can write many in page any where, they execute in order
+   	==> all variables in scriptlet are local variables to _jspService()
+   	
+   	---------------------------------------------------------------
+   	
+   	b. expression/assignment scripting element
+   	
+   	syntax:
+   	
+   	<%=   expression %>
+   	
+   	==> to do any Arith,Relation,Logical and assigment operation
+   	
+   	
+   	---------------------------------------------------------------
+   	
+   	c. declaration scripting eleemnt
+   	
+   	syntax
+   	
+   	<%!  declaration  %>
+   	
+   	==> to declare any instance or static variables
+   	==> to declare any methods in JSP
+   	
+   	
+   	
+   	---------------------------------------------------------------
+   	
+   	d. commenting Scripting element
+   	
+   	
+   	
+   	<%--  code  --%>
+   	
+   	
+   	 ---------------------------------------------------------------
+   	 	
+   	 	
+   	 e. directive scripting
+   	 
+   	 
+   	 syntax:
+   	 
+   	 <%@ directive   %>
+   	 
+   	 use :
+   	 
+   	 ==> gives directions to web-container, how to translate .JSP document to Java
+   	 	
+   	
+   	3 types of directives
+   	----------------------
+   	
+   		a.page  ==> to define page-level properties
+   		b.include ==> to include others files to JSP at translation-phase
+   		c.taglib ==> to import custom tag lib to web-page
+   	
+   	
+   	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
        
        
        

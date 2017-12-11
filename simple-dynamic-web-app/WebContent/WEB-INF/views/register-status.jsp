@@ -10,9 +10,12 @@
 	<div class="container">
 		<div class="page-header">simple-web-app</div>
 
+		<%
+			String user = (String) request.getAttribute("user");
+		%>
+
 		<div class="alert alert-info">
-			Hello {name}, <br />
-			You have registered successfully
+			Hello <%=user %>, <br /> You have registered successfully
 		</div>
 
 	</div>

@@ -24,6 +24,11 @@ public class UserRegisterServlet extends HttpServlet {
 		// Process
 
 		// ==> save in data-base
+		// -------------------------------------------------
+		// do it
+		// -------------------------------------------------
+
+		req.setAttribute("user", name);
 
 		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/views/register-status.jsp");
 		dispatcher.forward(req, resp);
