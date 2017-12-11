@@ -25,7 +25,7 @@ public class UserRegisterServlet extends HttpServlet {
 
 		// ==> save in data-base
 
-		RequestDispatcher dispatcher = req.getRequestDispatcher("views/register-status.jsp");
+		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/views/register-status.jsp");
 		dispatcher.forward(req, resp);
 
 		// Output
