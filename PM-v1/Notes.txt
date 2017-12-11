@@ -1,0 +1,138 @@
+
+s/w Application
+------------------
+ 
+1. Datasource
+
+    - RDBMS
+    
+          - Oracle
+          - MySQL
+          - SQLServer
+          - DB2
+       
+       
+       relational model
+       
+      	e.g 	a. Product
+       	
+       	
+-----------------------------------------------   
+
+
+2. Application
+
+
+	UML :
+	
+		- structural
+		- behav
+
+--------------------------------------------------------------
+
+     Appln Arch/pattern  ==> MVC  ( Model View Controller )
+--------------------------------------------------------------
+     Model:  ( business data )
+     	e.g
+     	Product
+     	Review
+     	Customer
+     	Order
+     	....
+     	Layer(s)
+     	a. data/repository layer  ==> persisting logic
+     	b. service/business layer ==> processing logic
+ -------------------------------------------------------------
+    View : ( UI )
+    ==> how to render model to end-user
+    ==> how to collect input from end-user
+ ------------------------------------------------------------     
+    Controller  	: ( Flow logic b/w view & controller )
+    ==> collect input from view
+    ==> validate input
+	==> convert input to desired type
+	==> manage session
+	==> implement security
+	==> invoke service layer's methods
+	==> render model data thru view templates ( jsp , pdf , excell , .. )
+	.............
+-----------------------------------------------------------	
+	    
+	advantages :
+	
+	==> easy to develop
+	==> easy to test
+	==> easy to extend
+	==> well-know & proven arch
+	==> many F.Ws are exist to implement this arch/pattern
+	
+	....
+	
+----------------------------------------------------------------	    
+     	
+     	
+     	
+ PM - web - application
+ ---------------------------
+ 	
+ 	Model:
+ 	
+ 		a. Product
+ 			- id
+ 			- name
+ 			- price
+ 			- make_date
+ 			- description
+ 			
+ 	   b. Review
+ 	   		- id
+ 	   		- stars
+ 	   		- author
+ 	   		- body
+ 	   		
+ 	  layer(s)
+ 	  
+ 	  	a. data/repository layer
+ 	  	
+ 	  		- ProductRepository 		
+ 	  		- RviewRepository
+ 	  		
+ 	    b. service layer	
+ 	    
+ 	    		- XXXService
+ 	    		- XXService
+ 	    
+ ---------------------------------------------------------
+ 	    
+ 	 View   			
+     	 
+     	  javascript 
+     	 - html,jsp  + css +
+     	 
+     	 1. welcome-page ( index.html )
+     	 2. product-management ( pm.jsp )
+     	 
+     	 
+     	
+---------------------------------------------------------
+
+	Controller
+	
+		- ProductController  ( servlet )
+		- ReviewController   ( servlet )
+		
+----------------------------------------------------------		  		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+    	
+       
