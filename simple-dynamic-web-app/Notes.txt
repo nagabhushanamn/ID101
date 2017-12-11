@@ -1,0 +1,34 @@
+
+
+
+
+ how to make servlet-class ?
+ 
+   using 'Servlet-API'  ( javax.servlet.* )
+   
+   ----------------------------------------
+   
+   Servlet ( I )
+   GenericServlet ( AC )
+   
+   
+       - http
+       - ftp
+       - smptp
+       ....
+       
+    HttpServlet extends  GenericServlet
+    
+       - http
+       
+  --------------------------------------------      
+    
+       
+       
+       
+   
+   
+
+
+
+  
