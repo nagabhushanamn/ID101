@@ -90,7 +90,7 @@ public class ProductsController extends HttpServlet {
 		// resp.sendRedirect("status.jsp");
 		// resp.sendRedirect("http://www.google.com");
 
-		resp.sendRedirect("products?msg=New product saved"); // New Url to client ,
+		resp.sendRedirect("products"); // New Url to client ,
 
 		//
 

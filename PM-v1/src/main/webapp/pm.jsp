@@ -45,7 +45,8 @@
 			%>
 		</table>
 		<hr />
-
+		<button id="toggle-btn" class="btn btn-danger">New Product</button>
+		<div id="product-form-panel" class="row" style="display: none">
 		<div class="col-xs-8 col-sm-5 col-md-5">
 			<div class="panel panel-default">
 				<div class="panel-heading">Product Form</div>
@@ -76,8 +77,12 @@
 				</div>
 			</div>
 		</div>
+		</div>
 
 	</div>
+	
+	<script type="text/javascript" src="jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="app.js"></script>
 
 </body>
 </html>
