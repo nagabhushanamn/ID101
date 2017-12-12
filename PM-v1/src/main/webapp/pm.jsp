@@ -29,7 +29,11 @@
 				<td><%=product.getName()%></td>
 				<td>&#8377;<%=product.getPrice()%></td>
 				<td><%=product.getMakeDate()%></td>
-				<td><a href><i class="glyphicon glyphicon-edit"></i></a></td>
+				<td>
+					<a href="edit-product?id=<%=product.getId()%>">
+						<i class="glyphicon glyphicon-edit"></i>
+					</a>
+				</td>
 				<td>
 					<a href="delete-product?id=<%=product.getId()%>">
 						<i class="glyphicon glyphicon-trash"></i>
@@ -46,7 +50,7 @@
 			<div class="panel panel-default">
 				<div class="panel-heading">Product Form</div>
 				<div class="panel-body">
-					<form action="products" method="post">
+					<form action="save-product" method="post">
 						<div class="form-group">
 							<label>Id</label> <input class="form-control" class=""
 								type="number" name="id">
