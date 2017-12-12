@@ -93,12 +93,10 @@ s/w Application
  	  layer(s)
  	  
  	  	a. data/repository layer
- 	  	
  	  		- ProductRepository 		
  	  		- RviewRepository
  	  		
  	    b. service layer	
- 	    
  	    		- XXXService
  	    		- XXService
  	    
@@ -117,7 +115,6 @@ s/w Application
 ---------------------------------------------------------
 
 	Controller
-	
 		- ProductController  ( servlet )
 		- ReviewController   ( servlet )
 		
