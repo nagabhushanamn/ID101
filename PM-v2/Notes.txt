@@ -123,6 +123,40 @@ s/w Application
 		
 
 
+ Problems with Traditional web-application:
+ ------------------------------------------
+ 
+ 
+   ==> on every new-resp, browser re-load current with new-page
+   ==> increasing n/w bandwidth, i.e we r loading same resources again and again
+   ==> in every req, server need to re-construct same UI pages with small data-change
+   
+   
+   ---------------
+   
+   soln:
+   
+     using 'XHR API' in browser   ( AJAX )
+ 	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
