@@ -1,0 +1,56 @@
+
+
+JEE - scope objects
+-----------------------
+
+
+
+ 1. ServletContext   ==> application scope
+ 
+ 
+ 	==> when container starts, one ServletContext obj created
+ 	==> when container stop,  ServletContext obj will get dstroyed
+ 	
+ 	
+ 	use:
+ 	
+ 	==> to maintain application scoped data/attributes
+ 	
+ 	e.g
+ 	
+ 	==> file locations
+ 	==> theme settings
+ 	==> global data propeties
+ 	
+ 	-------------------------------------------
+ 	
+ 	
+  2. HttpSession  ==> session scoped
+  
+  
+   ==> For Each New Client , container will create new session-obj with unique session ID
+   ==> on logout/timeout , container will destroy sessiion object.
+   
+   
+  use :
+  
+  ==> to maintain client specific data, till session invalidate.
+  
+  ------------------------------------------------
+  
+  
+   3. HttpServletRequest   ==> request scoped
+   
+   
+   ------------------------------------------------
+   
+   
+   
+   
+   
+   
+ 
+ 
+ 
+  	
+     
