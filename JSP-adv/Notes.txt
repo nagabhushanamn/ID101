@@ -1,0 +1,55 @@
+
+
+1. Action Tags
+
+
+   <jsp:actiontag  atributes />
+   
+   use :
+   
+    ==> to read/write bean properties in JSP
+    
+ 2. EL
+ 
+----------------------------------------------------
+
+
+Custom Tags to JSP
+--------------------
+
+
+   why we need ?
+   
+   
+    ==> to separate java-code ( presentation logic ) from document.
+    ==> can re-use presentation logic in many JSP pages
+    
+  -------------------------------------------------------------
+  
+  steps to to create custom-tag for JSP pages ?
+  
+  
+  => tag-handler ( .java )
+  => define the tag in tag-library ( .xml ==> .tld )
+  => import taglib to JSP page using 'taglib' directive
+  
+  
+  ------------------------------------------------------------  
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

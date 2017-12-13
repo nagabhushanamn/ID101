@@ -32,18 +32,19 @@ public class ProductsController extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
 		String reqPath = req.getRequestURI();
-		if (reqPath.equals("/pm/products")) {
+		String path = reqPath.substring(reqPath.lastIndexOf("/"));
+		if (path.equals("/products")) {
 			List<Product> products = productRepository.findAll();
 			req.setAttribute("allProducts", products);
 			RequestDispatcher rd = req.getRequestDispatcher("pm.jsp");
 			rd.forward(req, resp);
 		}
-		if (reqPath.equals("/pm/delete-product")) {
+		if (path.equals("/delete-product")) {
 			String id = req.getParameter("id");
 			productRepository.delete(Integer.parseInt(id));
 			resp.sendRedirect("products");
 		}
-		if (reqPath.equals("/pm/edit-product")) {
+		if (path.equals("/edit-product")) {
 			String id = req.getParameter("id");
 			Product product = productRepository.find(Integer.parseInt(id));
 			req.setAttribute("product", product);
@@ -57,6 +58,7 @@ public class ProductsController extends HttpServlet {
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
 		String reqPath = req.getRequestURI();
+		String path = reqPath.substring(reqPath.lastIndexOf("/"));
 
 		String id = req.getParameter("id");
 		String name = req.getParameter("name");
@@ -76,10 +78,10 @@ public class ProductsController extends HttpServlet {
 		}
 		product.setDescription(description);
 
-		if (reqPath.equals("/pm/save-product")) {
+		if (path.equals("/save-product")) {
 			productRepository.save(product);
 		}
-		if (reqPath.equals("/pm/update-product")) {
+		if (path.equals("/update-product")) {
 			productRepository.update(product);
 		}
 
